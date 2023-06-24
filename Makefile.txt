@@ -1,0 +1,5 @@
+cardapio: main.c funcoes.c header.h
+    gcc -o cardapio main.c funcoes.c
+
+clean:
+    rm -f cardapio
