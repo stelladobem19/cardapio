@@ -1,5 +1,20 @@
-cardapio: main.c funcoes.c header.h
-    gcc -o cardapio main.c funcoes.c
+CC = gcc
+CFLAGS = -Wall -Wextra -std=c11
+LDFLAGS = 
+
+SRC = main.c funcoes.c
+OBJ = $(SRC:.c=.o)
+EXECUTABLE = projeto
+
+.PHONY: all clean
+
+all: $(EXECUTABLE)
+
+$(EXECUTABLE): $(OBJ)
+	$(CC) $(LDFLAGS) $^ -o $@
+
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-    rm -f cardapio
+	rm -f $(OBJ) $(EXECUTABLE)
