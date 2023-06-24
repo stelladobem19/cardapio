@@ -1,4 +1,4 @@
-# Cardapio e Comanda
+# Cardápio e Comanda
  - Cardápio de um restaurante fictício com sistema para impressão da comanda de pedidos 
 Autores: Alana Silva Barbosa e Stella Maris Gonçalves do Bem 
 
