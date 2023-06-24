@@ -11,7 +11,7 @@ Nosso requisito está diretamente ligado a querer transformar uma tarefa cotidia
   o usuário também poderá consultar sua comando quando desejar retirar algum pedido e o valor assim será atualizado.
 
 
-  - Nosso
+ - Nosso
   objetivo é melhorar nosso antigo projeto, que foi desenvolvido no último semestre;
   vamos incluir a nova funcionalidade de retirar itens da comanda através de uma estrutura de lista;
   organizar a comanda através de uma estrutura de ordenação; 
